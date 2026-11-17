@@ -1,0 +1,83 @@
+MyAdminApp/
+│
+├── public/
+│   └── assets/
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Footer.jsx
+│   │   │
+│   │   └── common/
+│   │       ├── PageHeader.jsx
+│   │       └── Loading.jsx
+│   │
+│   ├── layouts/
+│   │   └── AdminLayout.jsx
+│   │
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   ├── Users.jsx
+│   │   ├── Settings.jsx
+│   │   └── NotFound.jsx
+│   │
+│   ├── services/
+│   │   └── api.js
+│   │
+│   ├── hooks/
+│   ├── utils/
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── vite.config.js
+
+AdminLTEManagement/
+│
+├── AdminLTEManagement.sln
+│
+├── backend/
+│   └── AdminLTE.Api/
+│       ├── Controllers/
+│       │   ├── AuthController.cs
+│       │   ├── UsersController.cs
+│       │   └── DashboardController.cs
+│       │
+│       ├── Data/
+│       │   └── ApplicationDbContext.cs
+│       │
+│       ├── Models/
+│       │   └── ApplicationUser.cs
+│       │
+│       ├── DTOs/
+│       │   ├── LoginRequest.cs
+│       │   ├── RegisterRequest.cs
+│       │   └── AuthResponse.cs
+│       │
+│       ├── Services/
+│       │   ├── ITokenService.cs
+│       │   └── TokenService.cs
+│       │
+│       ├── appsettings.json
+│       ├── Program.cs
+│       └── AdminLTE.Api.csproj
+│
+└── frontend/
+    └── adminlte/
+        ├── src/
+        │   ├── components/
+        │   ├── layouts/
+        │   ├── pages/
+        │   ├── context/
+        │   ├── services/
+        │   ├── routes/
+        │   ├── App.jsx
+        │   └── main.jsx
+        │
+        └── package.json
